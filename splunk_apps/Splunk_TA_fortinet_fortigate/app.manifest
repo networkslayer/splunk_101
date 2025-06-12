@@ -1,0 +1,69 @@
+{
+  "dependencies": null,
+  "incompatibleApps": null,
+  "info": {
+    "author": [
+      {
+        "name": "splunk_app@fortinet.com",
+        "email": null,
+        "company": null
+      }
+    ],
+    "classification": {
+      "categories": [
+        "Security,Fraud & Compliance"
+      ],
+      "developmentStatus": null,
+      "intendedAudience": null
+    },
+    "commonInformationModels": {
+      "Alerts": "==4.18.1",
+      "Authentication": "==4.18.1",
+      "Change": "==4.18.1",
+      "Email": "==4.18.1",
+      "IDS": "==4.18.1",
+      "Malware": "==4.18.1",
+      "Network Session": "==4.18.1",
+      "Network Trafffic": "==4.18.1",
+      "Performance": "==4.18.1",
+      "Web": "==4.18.1"
+    },
+    "description": "Fortinet FortiGate Add-On for Splunk is the technical add-on (TA) developed by Fortinet, Inc. The add-on enables Splunk Enterprise to ingest or map security and traffic data collected from FortiGate physical and virtual appliances across domains.",
+    "id": {
+      "group": null,
+      "name": "Splunk_TA_fortinet_fortigate",
+      "version": "1.6.9"
+    },
+    "license": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "privacyPolicy": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "releaseDate": null,
+    "releaseNotes": {
+      "name": "README",
+      "text": "README.txt",
+      "uri": "https://splunkbase.splunk.com/app/2846/#/overview"
+    },
+    "title": "Fortinet Fortigate Add-on for Splunk"
+  },
+  "inputGroups": null,
+  "platformRequirements": null,
+  "schemaVersion": "2.0.0",
+  "supportedDeployments": [
+    "_standalone",
+    "_distributed",
+    "_search_head_clustering"
+  ],
+  "targetWorkloads": [
+    "_search_heads",
+    "_indexers",
+    "_forwarders"
+  ],
+  "tasks": null
+}

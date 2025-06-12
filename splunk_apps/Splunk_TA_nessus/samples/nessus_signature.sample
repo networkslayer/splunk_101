@@ -1,0 +1,7 @@
+10989,Common Platform Enumeration (CPE),General
+12258,Additional DNS Hostnames,General
+11026,Unknown Service Detection: Banner Retrieval,Service detection
+19506,Nessus Scan Information,Settings
+11620,Terminal Services Encryption Level is Medium or Low,Settings
+12122,Terminal Services Encryption Level is not FIPS-140 Compliant,Service detection
+34418,Microsoft Windows Remote Desktop Protocol Server Man-in-the-Middle Weakness,General

@@ -1,0 +1,15 @@
+services:
+  splunk:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        USE_LOCAL_BOTS: "true"
+    container_name: splunk_101
+    platform: linux/amd64
+    ports:
+      - "8000:8000"
+    environment:
+      - SPLUNK_PASSWORD=changeme
+    user: root
+    restart: unless-stopped

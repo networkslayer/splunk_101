@@ -1,0 +1,14 @@
+epmap(135/tcp)
+unknown (4105/tcp)
+netbios-ssn(139/tcp)
+msrdp (3389/tcp)
+general/tcp
+general (0/tcp)
+general
+microsoft-ds(445/tcp)
+el-random(2324/tcp)
+el-random(2426/tcp)
+microsoft-ds(139/tcp)
+el-random(827/tcp)
+el-random(1820/tcp)
+el-random(2204/tcp)

@@ -1,0 +1,1 @@
+start_time="##start_time##" end_time="##end_time##" dest_dns=##dest_dns##  dest_nt_host=##dest_nt_host## dest_mac=##dest_mac## dest_ip=##dest_ip## os="##os##" dest_port_proto="##dest_port_proto##" severity_id=##severity_id## signature_id=##signature_id## signature="##signature##" CUSTOMLB

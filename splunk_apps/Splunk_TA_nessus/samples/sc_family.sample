@@ -1,0 +1,14 @@
+30,General,active
+24,Service detection,active
+23,Misc.,active
+11,Web Servers,active
+41,Settings,active
+42,Port scanners,active
+31,Databases,active
+37,DNS,active
+34,Firewalls,active
+6,CGI abuses,active
+18,CentOS Local Security Checks,active
+28,RPC,active
+12,SMTP problems,active
+19,FTP,active

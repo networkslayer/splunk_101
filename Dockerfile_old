@@ -1,0 +1,36 @@
+FROM splunk/splunk:latest
+
+# Disable Ansible provisioning
+ENV SPLUNK_ENABLE_INSTALL=false \
+    SPLUNK_START_ARGS=--accept-license \
+    SPLUNK_PASSWORD=changeme
+
+USER root
+
+# Ensure apps directory exists
+#RUN mkdir -p /opt/splunk/etc/apps
+
+# Optionally include local BOTs dataset
+ARG USE_LOCAL_BOTS=true
+#COPY botsv1_data_set.tgz /tmp/botsv1_data_set.tgz
+
+#RUN if [ "$USE_LOCAL_BOTS" = "true" ] && [ -f /tmp/botsv1_data_set.tgz ]; then \
+#        echo "Using local BOTs dataset" && \
+#        mkdir -p /opt/splunk/etc/apps/botsv1_data_set && \
+#        tar -xzf /tmp/botsv1_data_set.tgz --strip-components=1 -C /opt/splunk/etc/apps/botsv1_data_set && \
+#        rm /tmp/botsv1_data_set.tgz ; \
+#    else \
+#        echo "Downloading BOTs dataset..." && \
+#        curl -L https://s3.amazonaws.com/botsdataset/botsv1/splunk-pre-indexed/botsv1_data_set.tgz \
+#        | tar -xz --strip-components=1 -C /opt/splunk/etc/apps/botsv1_data_set ; \
+#    fi
+
+
+# Copy your local apps into the image
+# COPY splunk_apps/* /opt/splunk/etc/apps/
+
+# Fix permissions
+RUN chown -R splunk:splunk /opt/splunk/
+RUN ls -la /opt/splunk/etc/ && cat /opt/splunk/etc/splunk-launch.conf || echo "MISSING SPLUNK CONFIG"
+
+USER splunk

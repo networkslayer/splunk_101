@@ -1,0 +1,9 @@
+level,severity,severity_id
+emergency,critical,0
+alert,critical,1
+critical,critical,2
+error,high,3
+warning,medium,4
+notice,low,5
+information,informational,6
+debug,informational,7

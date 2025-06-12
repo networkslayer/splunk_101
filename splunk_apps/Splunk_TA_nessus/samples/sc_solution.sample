@@ -1,0 +1,26 @@
+All PyPAM users should upgrade to the latest version:  # emerge --sync  # emerge --ask --oneshot --verbose '>=dev-python/pypam-0.5.0-r3',The remote Gentoo host is missing one or more security-related patches.
+Upgrade the pdns packages.  For the stable distribution (jessie),The remote Debian host is missing a security-related update.
+Update the affected package.,The remote FreeBSD host is missing a security-related update.
+Update the affected openssl package.,The remote Fedora host is missing a security update.
+Update the affected flash-plugin package.,The remote Red Hat host is missing a security update.
+Apply IBM 7.0 Fix Pack 39 (7.0.0.39) / 8.0 Fix Pack 11 (8.0.0.11) / 8.5 Fix Pack 6 (8.5.5.6) or later.apply the Interim Fixes as recommended in the vendor advisory.,The remote application server is affected by multiple vulnerabilities.
+Upgrade to Google Chrome 43.0.2357.132 or later.,The remote Windows host contains a web browser that is affected by multiple vulnerabilities.
+Install Microsoft KB3065823.,The remote Windows host has a browser plugin installed that is affected by multiple vulnerabilities.
+Upgrade to PHP version 5.4.43 or later.,The remote web server uses a version of PHP that is affected by multiple vulnerabilities.
+Update the affected packages.,The remote FreeBSD host is missing one or more security-related updates.
+Update the affected wesnoth package.,The remote Fedora host is missing a security update.
+Update the affected polkit package.,The remote Fedora host is missing a security update.
+Upgrade to Google Chrome 43.0.2357.132 or later.,The remote Mac OS X host contains a web browser that is affected by multiple vulnerabilities.
+You should install this patch for your system to be up-to-date.,The remote host is missing Sun Security Patch number 150832-08
+Upgrade the affected packages.,The remote Debian host is missing a security update.
+Upgrade to Adobe AIR 18.0.0.180 or later.,The remote Mac OS X host has a version of Adobe AIR installed that is affected by multiple vulnerabilities.
+You should install this patch for your system to be up-to-date.,The remote host is missing Sun Security Patch number 150833-08
+Update the affected libnss3 package.,The remote Ubuntu host is missing a security-related patch.
+n/a,An online office suite is installed on the remote Windows host.
+Update the affected flash-player packages.,The remote openSUSE host is missing a security update.
+Update the affected MozillaFirefox / mozilla-nss packages.,The remote openSUSE host is missing a security update.
+All Oracle JRE 8 users should upgrade to the latest stable version:  # emerge --sync  # emerge --ask --oneshot --verbose '>=dev-java/oracle-jre-bin-1.8.0.31  All Oracle JDK 8 users should upgrade to the latest stable version:  # emerge --sync  # emerge --ask --oneshot --verbose '>=dev-java/oracle-jdk-bin-1.8.0.31  All Oracle JRE 7 users should upgrade to the latest version:  # emerge --sync  # emerge --ask --oneshot --verbose '>=dev-java/oracle-jre-bin-1.7.0.76  All Oracle JDK 7 users should upgrade to the latest stable version:  # emerge --sync  # emerge --ask --oneshot --verbose '>=dev-java/oracle-jdk-bin-1.7.0.76,The remote Gentoo host is missing one or more security-related patches.
+Update the affected firefox package.,The remote Fedora host is missing a security update.
+Upgrade to EMC D2 Documentum 4.2 P16 / 4.5 P03 or later.,The remote host is affected by multiple DQL injection vulnerabilities.
+Upgrade to Adobe AIR 18.0.0.180 or later.,The remote Windows host has a version of Adobe AIR installed that is affected by multiple vulnerabilities.
+Update the affected firefox package.,The remote Ubuntu host is missing a security-related patch.

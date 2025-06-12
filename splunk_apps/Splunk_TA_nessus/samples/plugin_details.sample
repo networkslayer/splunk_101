@@ -1,0 +1,19 @@
+58409,Check Point SecuRemote Hostname Information Disclosure,Firewalls
+70544,SSL Cipher Block Chaining Cipher Suites Supported,General
+101025,Elasticsearch Unrestricted Access Information Disclosure,CGI abuses
+35716,Ethernet Card Manufacturer Detection,Misc.
+46215,Inconsistent Hostname and IP Address,Settings
+11011,Microsoft Windows SMB Service Detection,Windows
+11219,Nessus SYN scanner,Port scanners
+10107,HTTP Server Type and Version,Web Servers
+10884,Network Time Protocol (NTP) Server Detection,Service detection
+53335,RPC portmapper (TCP),RPC
+12217,DNS Server Cache Snooping Remote Information Disclosure,DNS
+10675,Check Point FireWall-1 Telnet Client Authentication Detection,Firewalls
+57041,SSL Perfect Forward Secrecy Cipher Suites Supported,General
+71049,SSH Weak MAC Algorithms Enabled,Misc.
+43111,HTTP Methods Allowed (per directory),Web Servers
+19506,Nessus Scan Information,Settings
+22964,Service Detection,Service detection
+10223,RPC portmapper Service Detection,RPC
+10028,DNS Server BIND version Directive Remote Version Detection,DNS

@@ -1,0 +1,20 @@
+chargen probe utility
+globalscape secure ftp server input overflow
+matt wright guestbook.pl arbitrary command execution
+ms02-018 microsoft iis 4.0 .htr path overflow
+rlogin authentication scanner
+smtp user enumeration utility
+ultravnc 1.0.1 client buffer overflow
+snmp community scanner
+ms99-025 microsoft iis mdac msadcs.dll rds arbitrary remote command execution
+uow imap server lsub buffer overflow
+redhat piranha virtual server package passwd.php3 arbitrary command execution
+microsoft windows authenticated powershell command execution
+wu-ftpd site exec/index format string vulnerability
+gamsoft telsrv 1.5 username buffer overflow
+microsoft iis webdav write access code execution
+lprng use_syslog remote format string vulnerability
+ms00-094 microsoft iis phone book service overflow
+ntp daemon readvar buffer overflow
+ms01-023 microsoft iis 5.0 printer host header overflow
+ms01-026 microsoft iis/pws cgi filename double decode command execution

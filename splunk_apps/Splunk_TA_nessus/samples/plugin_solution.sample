@@ -1,0 +1,19 @@
+Update the affected package.,The remote FreeBSD host is missing a security-related update.
+Upgrade to PHP version 5.5.27 or later.,The remote web server uses a version of PHP that is affected by multiple vulnerabilities.
+Update the affected packages.,The remote Scientific Linux host is missing one or more security updates.
+Update the affected pcre package.,The remote Fedora host is missing a security update.
+Update the affected wireshark packages.,The remote openSUSE host is missing a security update.
+Update the affected libnss3 package.,The remote Ubuntu host is missing a security-related patch.
+Update the affected libwmf package.,The remote Fedora host is missing a security update.
+Upgrade to OpenSSH 6.9 or later.,The SSH server running on the remote host is affected by multiple vulnerabilities.
+Update the affected packages.,The remote FreeBSD host is missing one or more security-related updates.
+Update the affected packages.,The remote Red Hat host is missing one or more security updates.
+Upgrade to version 8.6(1.537) or greater.  Alternatively contact the vendor regarding the patch for Cisco bug ID CSCuu54037.,The remote web server is running a conferencing application that is affected by a SQL injection vulnerability.
+Update the affected s3ql package.,The remote Fedora host is missing a security update.
+Update the affected wesnoth package.,The remote Fedora host is missing a security update.
+All Oracle JRE 8 users should upgrade to the latest stable version:  # emerge --sync  # emerge --ask --oneshot --verbose '>=dev-java/oracle-jre-bin-1.8.0.31  All Oracle JDK 8 users should upgrade to the latest stable version:  # emerge --sync  # emerge --ask --oneshot --verbose '>=dev-java/oracle-jdk-bin-1.8.0.31  All Oracle JRE 7 users should upgrade to the latest version:  # emerge --sync  # emerge --ask --oneshot --verbose '>=dev-java/oracle-jre-bin-1.7.0.76  All Oracle JDK 7 users should upgrade to the latest stable version:  # emerge --sync  # emerge --ask --oneshot --verbose '>=dev-java/oracle-jdk-bin-1.7.0.76,The remote Gentoo host is missing one or more security-related patches.
+Update the affected mysql-community-server packages.,The remote openSUSE host is missing a security update.
+n/a,The remote Mac OS X host contains an FTP/SFTP client.
+To install this SUSE Security Update use YaST online_update. Alternatively you can run the command listed for your product :  SUSE Linux Enterprise Server 11 SP2 LTSS :  zypper in -t patch slessp2-libmysqlclient-devel=10835  SUSE Linux Enterprise Server 11 SP1 LTSS :  zypper in -t patch slessp1-libmysqlclient-devel=10834  To bring your system up-to-date use 'zypper patch'.,The remote SUSE host is missing one or more security updates.
+Update the affected openssl package.,The remote Fedora host is missing a security update.
+Upgrade to Google Chrome 43.0.2357.132 or later.,The remote Windows host contains a web browser that is affected by multiple vulnerabilities.

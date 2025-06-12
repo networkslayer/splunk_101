@@ -1,0 +1,23 @@
+services:
+  splunk:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        USE_LOCAL_BOTS: "true"
+
+    container_name: splunk_101
+    platform: linux/amd64
+    ports:
+      - "8000:8000"
+    #volumes:
+    #  - splunk-var:/opt/splunk/var
+    #  - splunk-etc:/opt/splunk/etc
+    environment:
+      - SPLUNK_PASSWORD=changeme
+    entrypoint: ["/bin/bash", "-c", "/opt/splunk/bin/splunk start --accept-license --answer-yes --no-prompt && tail -f /opt/splunk/var/log/splunk/splunkd_stderr.log"]
+    restart: unless-stopped
+
+#volumes:
+#  splunk-var:
+#  splunk-etc:

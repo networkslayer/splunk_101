@@ -1,0 +1,55 @@
+##Modular input for Nessus 6.X
+
+[nessus]
+interval = 86400
+url = https://
+access_key =
+secret_key =
+start_date = 1999/01/01
+page_size = 1000
+start_by_shell = false
+disable_ssl_certificate_validation = false
+
+# The metrics to collect. Accepted values are nessus_scan or nessus_plugin
+metric = nessus_scan
+
+# The batch size of events collected for each interval.
+batch_size = 100000
+
+## Nessus scripted input using default directory
+#
+# Purpose:
+#
+#Index .nessus format files (v1 or v2) to splunk directly,
+#  using the following directories as source:
+#
+#    srcdir = <Splunk_TA_nessus installation directory>/spool
+#
+[script://.\bin\nessus2splunk.py]
+disabled = 1
+interval = 120
+index = main
+source = nessus
+sourcetype = nessus
+start_by_shell = false
+
+## EXAMPLE Nessus scripted input using user-defined directory.
+#
+# Purpose:
+#   Index .nessus format files (v1 or v2) to splunk directly,
+#   using the following directories as source:
+#
+#    srcdir = /opt/nessus/incoming
+#
+#[script://.\bin\nessus2splunk.py -s C:\nessus\incoming]
+#disabled = false
+#interval = 120
+#index = main
+#source = nessus
+#sourcetype = nessus
+
+[tenable_sc]
+description = "Tenable Security Center"
+interval = 30
+start_by_shell = false
+disabled = 1

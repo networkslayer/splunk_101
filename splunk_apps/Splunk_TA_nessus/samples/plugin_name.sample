@@ -1,0 +1,20 @@
+GLSA-201507-09 : PyPAM: Arbitrary code execution
+Debian DSA-3306-1 : pdns - security update
+FreeBSD : xen-kernel -- Information leak through XEN_DOMCTL_gettscinfo (ce658051-27ea-11e5-a4a5-002590263bf5)
+Fedora 22 : openssl-1.0.1k-11.fc22 (2015-11475)
+FreeBSD : xen-kernel -- GNTTABOP_swap_grant_ref operation misbehavior (80e846ff-27eb-11e5-a4a5-002590263bf5)
+RHEL 5 / 6 : flash-plugin (RHSA-2015:1214)
+IBM WebSphere Application Server 7.0 < 7.0.0.39 (FP39) / 8.0 < 8.0.0.11 (FP11) / 8.5 < 8.5.5.6 (FP6) Multiple Vulnerabilities
+Google Chrome < 43.0.2357.132 Multiple Vulnerabilities
+SUSE SLED11 Security Update : flash-player (SUSE-SU-2015:1214-1)
+FreeBSD : xen-tools -- xl command line config handling stack overflow (f1deed23-27ec-11e5-a4a5-002590263bf5)
+Fedora 21 : openssl-1.0.1k-11.fc21 (2015-11414)
+MS KB3065823: Update for Vulnerabilities in Adobe Flash Player in Internet Explorer
+PHP 5.4.x < 5.4.43 Multiple Vulnerabilities (BACKRONYM)
+FreeBSD : php -- use-after-free vulnerability (3d39e927-29a2-11e5-86ff-14dae9d210b8)
+Fedora 22 : wesnoth-1.12.4-1.fc22 (2015-10964)
+Fedora 22 : polkit-0.113-1.fc22 (2015-11058)
+FreeBSD : pivotx -- XSS (XSS) vulnerability (14d846d6-27b3-11e5-a15a-50af736ef1c0)
+FreeBSD : django -- multiple vulnerabilities (37ed8e9c-2651-11e5-86ff-14dae9d210b8)
+FreeBSD : xen-tools -- Unmediated PCI register access in qemu (3d657340-27ea-11e5-a4a5-002590263bf5)
+Google Chrome < 43.0.2357.132 Multiple Vulnerabilities (Mac OS X)
